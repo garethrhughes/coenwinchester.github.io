@@ -1,48 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>John Doe – Guitar Lessons</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <title>Coen Winchester Guitar Lessons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
-  <!-- Hero -->
-  <header class="hero">
-    <img src="assets/img/hero.jpg" alt="Guitar teacher playing" class="hero-img">
-    <div class="hero-text">
-      <h1>John Doe – Guitar Teacher</h1>
-      <p>Personalised lessons for beginners to advanced players.</p>
-      <a href="https://your‑booking‑system.example.com"
-         class="btn-primary">Book a Lesson</a>
+    <div class="header-bar">
+        <span class="logo">Coen Winchester</span>
+        <nav class="nav">
+            <a href="#pricing">Pricing</a>
+            <a href="#videos">Videos</a>
+            <a href="#faq">FAQ</a>
+            <div class="social-icons">
+                <a href="https://instagram.com/coenwinchester.guitar" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/coenwinchester" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+        <button class="hamburger-menu" aria-label="Open Menu"><i class="fas fa-bars"></i></button>
     </div>
-  </header>
 
-  <main class="container">
-    <!-- Location & Rates -->
-    <section id="info">
-      <h2>Location &amp; Rates</h2>
-      <p><strong>Studio:</strong> 123 Music Lane, Springfield, USA</p>
-      <p><strong>Rates:</strong></p>
-      <ul>
-        <li>30‑min lesson – $30</li>
-        <li>60‑min lesson – $55</li>
-        <li>Group (max 4 students) – $20 per person / hour</li>
-      </ul>
+    <div class="mobile-menu-overlay">
+        <button class="close-menu" aria-label="Close Menu">&times;</button>
+        <nav class="mobile-nav">
+            <a href="#pricing">Pricing</a>
+            <a href="#videos">Videos</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+            <div class="social-icons">
+                <a href="https://instagram.com/coenwinchester.guitar" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/coenwinchester" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+    </div>
+
+    <section class="hero-section">
+        <img src="assets/img/hero.png" alt="Guitar teacher on stage">
+        <h1>Guitar Lessons That Inspire</h1>
+        <p>Unlock your musical potential with expert lessons for all ages and skill levels.<br>Online & In-Person |
+            Friendly | Professional</p>
+        <a href="mailto:coenwinchester.guitar@gmail.com?subject=Guitar%20Lesson%20Booking" class="btn-primary">Book a
+            Lesson</a>
+        <!-- <div class="contact">Call/Text: <a href="tel:0411111222">0411 111 222</a></div> -->
     </section>
 
-    <!-- Link to FAQ -->
-    <section id="faq-link">
-      <h2>Frequently Asked Questions</h2>
-      <p>Got a question? <a href="faq.html">Check the FAQ</a> or email me at
-        <a href="mailto:johndoe@example.com">johndoe@example.com</a>.
-      </p>
-    </section>
-  </main>
+    <section class="welcome-section">
+        <h2>Welcome to my website!</h2>
+        <div class="welcome-wrapper">
+            <div class="welcome-text">
 
-  <footer>
-    <p>&copy; 2025 John Doe – All rights reserved.</p>
-  </footer>
+                <p>I'm Coen Winchester, a passionate guitar teacher based in Springfield. Whether you're a complete
+                    beginner
+                    or an advanced player, I offer lessons designed to help you reach your musical goals. Join me for a
+                    fun,
+                    supportive, and inspiring learning experience!</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet lacinia lacus, eget aliquet
+                    ipsum. Nam quis quam eget risus vestibulum facilisis. Quisque bibendum faucibus nunc, vel laoreet
+                    nunc
+                    volutpat eu. Sed quis massa vitae ante tristique sagittis. Quisque tellus enim, vehicula a neque
+                    venenatis, pulvinar pulvinar magna. Aliquam interdum bibendum mollis. Suspendisse egestas rhoncus
+                    ultricies. Nullam egestas odio mauris, sit amet dapibus lectus ultrices et. Aliquam malesuada
+                    pellentesque libero eget mattis. Morbi egestas faucibus urna, at consequat risus.</p>
+            </div>
+
+            <img src="assets/img/yt1.png" class="welcome-image" alt="Guitar Tutorial 1">
+        </div>
+    </section>
+
+    <section id="pricing" class="features">
+        <div class="feature">
+            <h3>Private Lessons</h3>
+            <p>One-on-one 60-minute sessions tailored to your goals. <br><strong>$55 per lesson</strong></p>
+        </div>
+        <div class="feature">
+            <h3>Online Lessons</h3>
+            <p>Learn from anywhere via Zoom or Skype. <br><strong>$45 per lesson</strong></p>
+        </div>
+        <div class="feature">
+            <h3>Group Lessons</h3>
+            <p>Up to 4 students per group. <br><strong>$25 per person / hour</strong></p>
+        </div>
+        <div class="feature">
+            <h3>Guitar Setup & Advice</h3>
+            <p>Help with buying, setting up, and maintaining your instrument.</p>
+        </div>
+    </section>
+
+    <section id="videos">
+        <div class="youtube-embed">
+            <div class="youtube-thumb-wrapper" data-video="VIDEO_ID_1">
+                <img src="assets/img/yt1.png" class="youtube-thumb" alt="Guitar Tutorial 1">
+                <div class="play-icon"></div>
+            </div>
+            <div class="youtube-thumb-wrapper" data-video="VIDEO_ID_2">
+                <img src="assets/img/yt2.png" class="youtube-thumb" alt="Guitar Tutorial 2">
+                <div class="play-icon"></div>
+            </div>
+            <div class="youtube-thumb-wrapper" data-video="VIDEO_ID_3">
+                <img src="assets/img/yt3.png" class="youtube-thumb" alt="Guitar Tutorial 3">
+                <div class="play-icon"></div>
+            </div>
+            <div class="youtube-thumb-wrapper" data-video="VIDEO_ID_4">
+                <img src="assets/img/yt4.png" class="youtube-thumb" alt="Guitar Tutorial 4">
+                <div class="play-icon"></div>
+            </div>
+        </div>
+        <div id="youtube-overlay">
+            <div class="overlay-content">
+                <button class="close-btn" aria-label="Close">&times;</button>
+                <iframe src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <script>
+            const thumbs = document.querySelectorAll('.youtube-thumb-wrapper');
+            const overlay = document.getElementById('youtube-overlay');
+            const iframe = overlay.querySelector('iframe');
+            const closeBtn = overlay.querySelector('.close-btn');
+            thumbs.forEach(thumb => {
+                thumb.addEventListener('click', () => {
+                    const vid = thumb.getAttribute('data-video');
+                    iframe.src = `https://www.youtube.com/embed/${vid}?autoplay=1`;
+                    overlay.classList.add('active');
+                });
+            });
+            closeBtn.addEventListener('click', () => {
+                overlay.classList.remove('active');
+                iframe.src = '';
+            });
+            overlay.addEventListener('click', e => {
+                if (e.target === overlay) {
+                    overlay.classList.remove('active');
+                    iframe.src = '';
+                }
+            });
+        </script>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+            <details>
+                <summary>What ages do you teach?</summary>
+                <p>I teach students of all ages, from children to adults.</p>
+            </details>
+            <details>
+                <summary>Do I need my own guitar?</summary>
+                <p>It's best to have your own guitar, but I can provide advice on purchasing or renting one.</p>
+            </details>
+            <details>
+                <summary>Can I do lessons online?</summary>
+                <p>Yes! Online lessons are available via Zoom or Skype.</p>
+            </details>
+            <details>
+                <summary>What styles do you teach?</summary>
+                <p>I teach a range of styles including rock, pop, blues, jazz, and classical.</p>
+            </details>
+            <details>
+                <summary>How do I book a lesson?</summary>
+                <p>Just email me or call/text the number above to arrange your first lesson.</p>
+            </details>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-cols">
+            <div class="footer-col">
+                <h4>Address</h4>
+                <ul>
+                    <li>Springfield, USA</li>
+                    <li>Email: <a href="mailto:coenwinchester.guitar@gmail.com">coenwinchester.guitar@gmail.com</a></li>
+                    <li>Phone: <a href="tel:0411111222">0411 111 222</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Me</h4>
+                <div class="social-links">
+                    <a href="https://instagram.com/coenwinchester.guitar" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">&copy; 2025 Coen Winchester – All rights reserved.</div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger-menu');
+        const mobileMenu = document.querySelector('.mobile-menu-overlay');
+        const closeMenu = document.querySelector('.close-menu');
+
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+        });
+
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+    </script>
 </body>
+
 </html>
