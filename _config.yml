@@ -1,0 +1,6 @@
+# Prevent Jekyll from processing anything – we just serve static files.
+theme: minima
+exclude:
+  - node_modules
+  - README.md
+  - .gitignore
