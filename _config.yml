@@ -1,6 +1,19 @@
 # Prevent Jekyll from processing anything – we just serve static files.
+title: Coen Winchester Guitar Lessons
+description: "Unlock your musical potential with expert lessons for all ages and skill levels."
+url: "https://coenwinchester.com" # Update to your custom domain if needed
+baseurl: "" # Leave blank for root
+
+# GitHub Pages settings
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude these files from build
 exclude:
   - node_modules
   - README.md
   - .gitignore
+  - Gemfile
+  - Gemfile.lock

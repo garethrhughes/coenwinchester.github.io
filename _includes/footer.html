@@ -1,0 +1,47 @@
+<footer class="footer">
+    <div class="footer-cols">
+        <div class="footer-col">
+            <h4>Address</h4>
+            <ul>
+                <li>Springfield, USA</li>
+                <li>Email: <a href="mailto:coenwinchester.guitar@gmail.com">coenwinchester.guitar@gmail.com</a></li>
+                <li>Phone: <a href="tel:0411111222">0411 111 222</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Useful Links</h4>
+            <ul>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Follow Me</h4>
+            <div class="social-links">
+                <a href="https://instagram.com/coenwinchester.guitar" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">&copy; 2025 Coen Winchester – All rights reserved.</div>
+</footer>
+
+<script>
+    const hamburger = document.querySelector('.hamburger-menu');
+    const mobileMenu = document.querySelector('.mobile-menu-overlay');
+    const closeMenu = document.querySelector('.close-menu');
+
+    hamburger.addEventListener('click', () => {
+        mobileMenu.classList.add('active');
+    });
+
+    closeMenu.addEventListener('click', () => {
+        mobileMenu.classList.remove('active');
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+        });
+    });
+</script>

@@ -26,6 +26,13 @@ body {
     z-index: 100;
 }
 
+.post-page .header-bar {
+    /* height: 100px; */
+    position: relative;
+    background: var(--oxford-blue);
+    box-shadow: 0 2px 8px #0004;
+}
+
 .header-bar .logo {
     font-size: 2.2rem;
     font-family: 'Montserrat', sans-serif;
@@ -34,6 +41,11 @@ body {
     letter-spacing: 2px;
     margin-left: 2rem;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.header-bar .logo a {
+    color: var(--orange-web);
+    text-decoration: none;
 }
 
 .nav {
@@ -255,12 +267,35 @@ body {
     align-items: flex-start;
 }
 
-.welcome-image {
+/* .welcome-image {
     width: 35%;
     border-radius: 10px;
     box-shadow: 0 4px 24px #0006;
     flex: 1;
     align-self: center;
+} */
+
+.posts-list {
+    width: 35%;
+    flex: 1;
+}
+
+.posts-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.posts-list img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px #0006;
+    margin: 0 1rem 0 0;
+}
+
+.posts-list li {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
 }
 
 .welcome-section h2 {
