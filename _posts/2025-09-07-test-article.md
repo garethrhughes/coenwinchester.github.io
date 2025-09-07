@@ -2,8 +2,9 @@
 layout: post
 title: "Test Article: Guitar Tips"
 date: 2025-09-07
-categories: artcles
+categories: blog
 hero_image: /assets/img/yt1.png
+excerpt: "Discover essential tips for beginner guitarists and how to make the most of your practice sessions."
 ---
 
 ![Guitar Hero Image](/assets/img/yt1.png)

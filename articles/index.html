@@ -1,0 +1,50 @@
+---
+layout: post
+title: Articles
+---
+
+<div class="articles-list">
+
+    {% for post in paginator.posts %}
+    <article class="post-preview">
+        {% if post.hero_image %}
+        <img src="{{ post.hero_image }}" alt="{{ post.title }}">
+        {% endif %}
+        <div class="post-wrapper">
+            <h2>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+            <div class="post-meta">
+                {{ post.date | date: "%B %-d, %Y" }}
+            </div>
+            {% if post.excerpt %}
+            <div class="post-excerpt">
+                {{ post.excerpt }}
+            </div>
+            {% endif %}
+        </div>
+    </article>
+    {% endfor %}
+
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Previous</a>
+        {% endif %}
+
+        {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+        <span class="current-page">{{ page }}</span>
+        {% elsif page == 1 %}
+        <a href="{{ '/articles/' | relative_url }}">{{ page }}</a>
+        {% else %}
+        <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>

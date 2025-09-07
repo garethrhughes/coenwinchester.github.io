@@ -15,6 +15,10 @@ body {
     margin: 0;
 }
 
+h1 {
+    color: var(--orange-web);
+}
+
 .header-bar {
     background: transparent;
     padding: 1.2rem 0;
@@ -267,17 +271,22 @@ body {
     align-items: flex-start;
 }
 
-/* .welcome-image {
+.welcome-image {
     width: 35%;
     border-radius: 10px;
     box-shadow: 0 4px 24px #0006;
     flex: 1;
     align-self: center;
-} */
+}
 
 .posts-list {
     width: 35%;
     flex: 1;
+    margin-top: -6rem;
+}
+
+.posts-list h3 {
+   
 }
 
 .posts-list ul {
@@ -289,13 +298,29 @@ body {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 24px #0006;
-    margin: 0 1rem 0 0;
 }
 
 .posts-list li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     margin-bottom: 1.5rem;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 1rem;
+}
+
+.posts-list .post-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts-list li a {
+    text-decoration: none;
+    color: var(--orange-web);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.posts-list li p {
+    margin: 1rem 0 0 0;
 }
 
 .welcome-section h2 {
@@ -543,6 +568,96 @@ body {
     border-color: var(--orange-web);
 }
 
+
+/* Articles List Styles */
+.articles-list {
+
+    color: var(--black);
+}
+
+.post-preview {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    gap: 1rem;
+}
+
+.post-preview h2 {
+    margin: 0 0 0.5em;
+}
+
+.post-preview h2 a {
+    color: var(--oxford-blue);
+    text-decoration: none;
+}
+
+.post-preview h2 a:hover {
+    color: var(--orange-web);
+}
+
+.post-preview img {
+  border-radius: 10px;
+  width: 120px;
+  max-height: 120px;
+  box-shadow: 0 4px 24px #0006;
+  align-self: center;
+}
+
+.post-meta {
+    color: var(--text);
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.post-excerpt {
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.pagination a, .pagination span {
+    padding: 8px 12px;
+    margin: 0 4px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: var(--oxford-blue);
+    border-radius: 3px;
+}
+
+.pagination a:hover {
+    background: #f8f9fa;
+}
+
+.pagination .current-page {
+    background: var(--oxford-blue);
+    color: var(--white);
+    border-color: var(--oxford-blue);
+}
+
+.post-abstract  {
+
+    color: var(--text);
+}
+
+.post-content {
+
+    /* background: var(--oxford-blue); */
+    color: var(--black);
+    padding: 3rem 2rem;
+    /* border-radius: 16px; */
+    margin: 0 10rem;
+    /* box-shadow: 0 4px 24px #0006; */
+        line-height: 28px;
+    color: var(--text);
+}
+
+
 @media (max-width:900px) {
     .nav {
         display: none;
@@ -566,7 +681,9 @@ body {
     .testimonials,
     .youtube-thumb-wrapper,
     .welcome-image,
+    .post-content,
     .welcome-section h2,
+    .posts-list,
     #faq {
         width: 90% !important;
         margin: 0 auto 1rem auto !important;
