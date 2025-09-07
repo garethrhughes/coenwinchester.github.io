@@ -197,8 +197,8 @@ h1 {
 }
 
 .hero-section .btn-primary:hover {
-    background: var(--oxford-blue);
-    color: var(--orange-web);
+    /* background: var(--oxford-blue); */
+    /* color: var(--orange-web); */
     transform: scale(1.05);
 }
 
