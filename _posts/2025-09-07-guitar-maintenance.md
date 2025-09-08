@@ -1,28 +1,34 @@
 ---
 layout: post
-title: "Guitar Maintenance: Keeping Your Instrument in Top Shape"
+title: "Coen Winchester: Guitar, Bass, and All Things Technical"
 date: 2025-09-07
 categories: blog
-hero_image: /assets/img/yt2.png
-excerpt: "Learn essential tips for cleaning, string changing, and caring for your guitar so it always sounds its best."
+hero_image: /assets/img/CoenWinchester.png
+excerpt: "Learn from one of Sydney's most experienced Guitar, Bass, Theory and Production Tutors"
 ---
 
-![Guitar Maintenance](/assets/img/yt2.png)
+![Guitar Maintenance](/assets/img/CoenWinchester.png)
 
-Taking care of your guitar is crucial for both sound quality and longevity. Here are some basic maintenance tips:
 
-- Clean your guitar regularly with a soft cloth.
-- Change strings every few months, or sooner if they sound dull.
-- Store your guitar in a case to protect it from dust and humidity.
-- Check for loose hardware and tighten as needed.
-- Avoid exposing your guitar to extreme temperatures.
 
-## String Changing
+Coen is a natural-born teacher and musician from Sydney’s inner-west available for both in-home and in-studio lessons. 
+For the past nine years, they’ve dedicated themselves to helping others develop their skills and studies in tandem with 
+their own tertiary education. Through experience both teaching and learning in several institutions across Sydney, Coen 
+has learned to tutor dynamically in an array of subjects, including  songwriting, guitar technique, bass accompaniment, 
+recording and mixing, improvisation, even science and mathematics.
 
-Changing strings is one of the easiest ways to improve your guitar's sound. Make sure to use the right gauge and follow manufacturer instructions.
+Each of Coen’s lessons are tailored to the progression, goals, and learning preference of the student. With a broad and 
+versatile curriculum, students can pursue any mix of topics they like at their own pace. Coen understands that the most 
+important part of progressing in any field is passion and will focus on cultivating that, making each step of the 
+learning process more rewarding than the last.
 
-## Cleaning
 
-Use a dedicated guitar cleaner for the fretboard and body. Avoid household cleaners, which can damage the finish.
+## Availabilities
 
-With regular care, your guitar will stay in great condition and inspire you to play more!
+Coen offers lessons in-home, in-studio and online, any time, seven days a week.
+
+## Pricing
+
+Coen charges a flat rate of $60 per hour with a variety of lesson times available. 
+
+In home lessons incur a travel fee of $20 (average, can vary by distance).
