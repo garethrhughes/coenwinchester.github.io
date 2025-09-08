@@ -20,7 +20,7 @@ h1 {
 }
 
 .header-bar {
-    background: transparent;
+    background: var(--oxford-blue);
     padding: 1.2rem 0;
     box-shadow: none;
     position: absolute;
@@ -155,7 +155,7 @@ h1 {
 }
 
 .hero-section {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 60%, rgba(0, 0, 0, 0.95) 100%), url('../img/hero.png') center/cover no-repeat;
+    background: var(--white);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -272,7 +272,9 @@ h1 {
 }
 
 .welcome-image {
-    width: 35%;
+	width:1280px; 
+	vertical-align:middle;
+	height: 720px
     border-radius: 10px;
     box-shadow: 0 4px 24px #0006;
     flex: 1;
