@@ -1,8 +1,8 @@
 /* Color palette */
 :root {
     --black: #000000ff;
-    --oxford-blue: #14213dff;
-    --orange-web: #fca311ff;
+    --oxford-blue: #1800adff;
+    --orange-web: #ffde59ff;
     --platinum: #e5e5e5ff;
     --white: #ffffffff;
     --text: #727272ff
@@ -170,14 +170,14 @@ h1 {
     font-size: 3.2rem;
     font-weight: 800;
     margin-bottom: 1rem;
-    color: var(--white);
+    color: var(--orange-web);
     text-shadow: 0 4px 24px #000a;
 }
 
 .hero-section p {
     font-size: 1.5rem;
     margin-bottom: 2rem;
-    color: var(--platinum);
+    color: var(--orange-web);
     text-shadow: 0 2px 8px #0006;
 }
 
@@ -272,10 +272,7 @@ h1 {
 }
 
 .welcome-image {
-	width:1280px; 
-	vertical-align:middle;
-	height: 720px
-    border-radius: 10px;
+    border-radius: 500px;
     box-shadow: 0 4px 24px #0006;
     flex: 1;
     align-self: center;
