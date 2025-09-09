@@ -46,6 +46,11 @@ h1 {
     letter-spacing: 2px;
     margin-left: 2rem;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.header-bar .logo img {
+    max-width: 130px;
 }
 
 
@@ -158,7 +163,7 @@ h1 {
 
 
 .hero-section {
-	background: url('../img/guitarpic.jpg') center/cover no-repeat;
+	background: url('/assets/img/guitarpic_resize.jpg') center/cover no-repeat;
 	/* background-size: 1920px 1080px; */
     overflow: hidden;
     display: flex;
