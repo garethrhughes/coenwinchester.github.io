@@ -8,8 +8,7 @@ title: Music Tutors of Sydney
     <h1>By Tutors, For You</h1>
     <p>Unlock your musical potential with expert lessons for all ages and skill levels.<br>Online & In-Person |
         Friendly | Professional</p>
-    <a href="mailto:coenwinchester@gmail.com?subject=Guitar%20Lesson%20Booking" class="btn-primary">Book a
-        Lesson</a>
+    <a href="mailto:coenwinchester@gmail.com?subject=Guitar%20Lesson%20Booking" class="btn-primary">Contact Us</a>
     <!-- <div class="contact">Call/Text: <a href="tel:0411111222">0411 111 222</a></div> -->
 </section>
 
@@ -35,7 +34,7 @@ title: Music Tutors of Sydney
             {% for post in site.posts limit:3 %}
                 <li>
                     {% if post.hero_image %}
-                        <img src="{{ post.hero_image }}" alt="{{ post.title }}" style="max-width:100px;vertical-align:middle;">
+                        <img src="{{ post.hero_image }}" alt="{{ post.title }}" style="object-fit:cover;max-width:100px;height:100px;vertical-align:middle;">
                     {% endif %}
                     <div class="post-wrapper">
                     <a href="{{ post.url | relative_url }}">
