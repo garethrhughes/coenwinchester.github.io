@@ -1,6 +1,7 @@
 ---
 layout: tutor
-title: Bon Lowe
+name: Bon Lowe
+title: "Bon Lowe: Everything Drums and Theory"
 instruments: 
   - Drums
 location: Sydney CBD

@@ -1,6 +1,7 @@
 ---
 layout: tutor
-title: Coen Winchester
+name: Coen Winchester
+title: "Coen Winchester: Guitar, Bass, and All Things Technical"
 instruments: 
   - Guitar
   - Piano
