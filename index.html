@@ -29,9 +29,9 @@ title: Music Tutors of Sydney
         </div>
 
         <div class="posts-list">
-
             <ul>
-            {% for post in site.tutors limit:3 %}
+            {% assign sorted_tutors = site.tutors | sort: "order" %}
+            {% for post in sorted_tutors %}
                 <li>
                     {% if post.image %}
                         <img src="{{ post.image }}" alt="{{ post.title }}" class="article-thumbnail">

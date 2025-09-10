@@ -8,6 +8,7 @@ instruments:
 location: Sydney CBD
 image: /assets/img/CoenWinchester.png
 excerpt: "Learn from one of Sydney's most experienced Guitar, Bass, Theory and Production Tutors"
+order: 1
 ---
 
 Coen is a natural-born teacher and musician from Sydney’s inner-west available for both in-home and in-studio lessons. 

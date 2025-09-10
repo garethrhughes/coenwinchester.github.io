@@ -7,7 +7,8 @@ collection: tutors
 ---
 
 <div class="articles-list">
-    {% for tutor in site.tutors %}
+    {% assign sorted_tutors = site.tutors | sort: "order" %}
+    {% for tutor in sorted_tutors %}
     <article class="post-preview">
         {% if tutor.image %}
         <img src="{{ tutor.image | relative_url }}" alt="{{ tutor.title }}" class="article-thumbnail">

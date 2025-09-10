@@ -6,6 +6,7 @@ instruments:
 location: Sydney CBD
 image: /assets/img/BonLowe.png
 excerpt: "Understand rhythm like never before with an experienced and qualified drummer."
+order: 2
 ---
 Bon has been playing drums for almost 10 years, performing to the public in live settings for over 6 years. They play a number of different genres ranging from metal to jazz 
 and is very comfortable in any style. Bon holds a Bachelor's degree in music from JMC academy in Sydney and in addition to teaching drums they also offer guitar and keyboard tuition.
