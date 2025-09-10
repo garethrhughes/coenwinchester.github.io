@@ -1,0 +1,36 @@
+---
+layout: post
+title: Our Tutors
+pagination:
+enabled: true
+collection: tutors
+---
+
+<div class="articles-list">
+    {% for tutor in site.tutors %}
+    <article class="post-preview">
+        {% if tutor.image %}
+        <img src="{{ tutor.image | relative_url }}" alt="{{ tutor.title }}" class="article-thumbnail">
+        {% endif %}
+
+        <div class="post-wrapper">
+
+            <h2>
+                <a href="{{ tutor.url }}">{{ tutor.title }}</a>
+            </h2>
+
+            {% if tutor.instruments %}
+            <div class="instruments">
+                {{ tutor.instruments | join: ", " }}
+            </div>
+            {% endif %}
+
+            {% if tutor.excerpt %}
+            <div class="post-excerpt">
+                {{ tutor.excerpt }}
+            </div>
+            {% endif %}
+        </div>
+    </article>
+    {% endfor %}
+</div>

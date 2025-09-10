@@ -1,0 +1,27 @@
+---
+layout: post
+---
+<article class="tutor">
+  {% if page.image %}
+    <img src="{{ page.image | relative_url }}" alt="{{ page.name }}" class="tutor-image">
+  {% endif %}
+  
+  {% if page.instruments %}
+    <div class="instruments">
+      <h2>Instruments</h2>
+      <ul>
+      {% for instrument in page.instruments %}
+        <li>{{ instrument }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  {% if page.location %}
+    <p class="location">Teaching in: {{ page.location }}</p>
+  {% endif %}
+
+  <div class="tutor-content">
+    {{ content }}
+  </div>
+</article>

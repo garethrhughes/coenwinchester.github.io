@@ -1,15 +1,14 @@
 ---
-layout: post
-title: "Coen Winchester: Guitar, Bass, and All Things Technical"
-date: 2025-09-07
-categories: blog
+layout: tutor
+title: Coen Winchester
+instruments: 
+  - Guitar
+  - Piano
+  - Music Theory
+location: Sydney CBD
 image: /assets/img/CoenWinchester.png
 excerpt: "Learn from one of Sydney's most experienced Guitar, Bass, Theory and Production Tutors"
 ---
-
-![Guitar Maintenance](/assets/img/CoenWinchester.png)
-
-
 
 Coen is a natural-born teacher and musician from Sydney’s inner-west available for both in-home and in-studio lessons. 
 For the past nine years, they’ve dedicated themselves to helping others develop their skills and studies in tandem with 

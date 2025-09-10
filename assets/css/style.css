@@ -401,9 +401,14 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-.posts-list .post-wrapper {
+.post-wrapper {
     display: flex;
     flex-direction: column;
+    align-self: center;
+}
+
+.post-wrapper p:last-of-type {
+    margin-bottom: 0;
 }
 
 .posts-list li a {
@@ -675,6 +680,13 @@ h1 {
     border-bottom: 1px solid #eee;
     display: flex;
     gap: 1rem;
+}
+
+.article-thumbnail {
+    object-fit:cover;
+    max-width:100px;
+    height:100px;
+    vertical-align:middle;
 }
 
 .post-preview h2 {

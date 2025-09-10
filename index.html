@@ -31,10 +31,10 @@ title: Music Tutors of Sydney
         <div class="posts-list">
 
             <ul>
-            {% for post in site.posts limit:3 %}
+            {% for post in site.tutors limit:3 %}
                 <li>
-                    {% if post.hero_image %}
-                        <img src="{{ post.hero_image }}" alt="{{ post.title }}" style="object-fit:cover;max-width:100px;height:100px;vertical-align:middle;">
+                    {% if post.image %}
+                        <img src="{{ post.image }}" alt="{{ post.title }}" class="article-thumbnail">
                     {% endif %}
                     <div class="post-wrapper">
                     <a href="{{ post.url | relative_url }}">
@@ -48,7 +48,7 @@ title: Music Tutors of Sydney
             {% endfor %}
             </ul>
             <div class="more-articles-link">
-                <a href="{{ '/articles/' | relative_url }}">View all tutors</a>
+                <a href="{{ '/tutors/' | relative_url }}">View all tutors</a>
             </div>
         </div>
 

@@ -15,6 +15,12 @@ plugins:
 paginate: 10
 paginate_path: "/articles/page:num/"
 
+# Collections
+collections:
+  tutors:
+    output: true
+    permalink: /tutors/:name/
+
 # Exclude these files from build
 exclude:
   - node_modules

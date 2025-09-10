@@ -7,8 +7,8 @@ title: Find Your Tutor
 
     {% for post in paginator.posts %}
     <article class="post-preview">
-        {% if post.hero_image %}
-        <img src="{{ post.hero_image }}" alt="{{ post.title }}" style="object-fit:cover;max-width:100px;height:100px;vertical-align:middle;">
+        {% if post.image %}
+        <img src="{{ post.image }}" alt="{{ post.title }}" class="article-thumbnail">
         {% endif %}
         <div class="post-wrapper">
             <h2>
