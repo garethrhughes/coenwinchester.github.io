@@ -161,6 +161,58 @@ h1 {
     font-size: 2.5rem;
 }
 
+.signup-section {
+    background: linear-gradient(rgb(0, 0, 0) 00%, rgba(0, 0, 0, 0.5) 25%), url('/assets/img/keyboard.jpg') center/cover no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+	padding-top: 100px;
+}
+
+.signup-section img {
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+}
+
+.signup-section h1 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--white);
+    text-shadow: 0 4px 4px #000a;
+}
+.signup-section p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--white);
+    text-shadow: 0 2px 2px #0006;
+}
+
+.signup-section .btn-primary {
+    background: var(--orange-web);
+    color: var(--white);
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 40px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 4px 16px #0004;
+    transition: background 0.2s, transform 0.2s;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
+.signup-section .btn-primary:hover {
+    /* background: var(--oxford-blue); */
+    /* color: var(--orange-web); */
+    transform: scale(1.05);
+}
 
 .hero-section {
 	background: url('/assets/img/guitarpic_resize.jpg') center/cover no-repeat;
@@ -265,7 +317,7 @@ h1 {
 .welcome-section {
 
     background: var(--white);
-    color: var(--black);
+    color: var(--orange-web);
     padding: 3rem 2rem;
     /* border-radius: 16px; */
     margin: 0 10rem;
@@ -286,6 +338,36 @@ h1 {
 }
 
 .welcome-image {
+    box-shadow: 0 4px 24px #0006;
+    flex: 1;
+    align-self: center;
+}
+
+.body-section {
+    background: var(--white);
+    color: var(--orange-web);
+    padding: 2rem 2rem;
+    text-align: center;
+    /* border-radius: 16px; */
+    margin: 1rem 1rem;
+    /* box-shadow: 0 4px 24px #0006; */
+}
+
+.body-text {
+    text-align: justify;
+    width: 80%;
+    line-height: 28px;
+    margin-left: 10%;
+    color: #727272;
+}
+
+.body-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.body-image {
     box-shadow: 0 4px 24px #0006;
     flex: 1;
     align-self: center;
@@ -479,7 +561,7 @@ h1 {
 }
 
 .footer {
-    background: linear-gradient(90deg, rgb(0, 0, .5) 00%, rgba(0, 0, 0, .5) 100%), url('../img/hero.png') center/cover no-repeat;
+    background: linear-gradient(90deg, rgb(0, 0, .5) 00%, rgba(0, 0, 0, .5) 100%), url('../img/footerkeys.jpg') center/cover no-repeat;
     color: var(--platinum);
     padding: 3rem 0 1.5rem 0;
     font-size: 1rem;

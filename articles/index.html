@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Articles
+title: Find Your Tutor
 ---
 
 <div class="articles-list">
@@ -8,15 +8,15 @@ title: Articles
     {% for post in paginator.posts %}
     <article class="post-preview">
         {% if post.hero_image %}
-        <img src="{{ post.hero_image }}" alt="{{ post.title }}">
+        <img src="{{ post.hero_image }}" alt="{{ post.title }}" style="object-fit:cover;max-width:100px;height:100px;vertical-align:middle;">
         {% endif %}
         <div class="post-wrapper">
             <h2>
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h2>
-            <div class="post-meta">
+            <!-- <div class="post-meta">
                 {{ post.date | date: "%B %-d, %Y" }}
-            </div>
+            </div> -->
             {% if post.excerpt %}
             <div class="post-excerpt">
                 {{ post.excerpt }}
