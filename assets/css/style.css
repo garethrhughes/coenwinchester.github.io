@@ -175,8 +175,13 @@ h1 {
 
 .signup-section img {
     border-radius: 10px;
-    height: 500px;
-    width: 500px;
+    height: auto;
+    width: 30%;
+}
+@media (max-width: 900px) {
+  .signup-section img {
+    width: 60%
+  }
 }
 
 .signup-section h1 {
@@ -228,8 +233,8 @@ h1 {
 }
 .hero-section img {
 	border-radius: 10px;
-	height: 720px;
-	width: 1280px;
+	max-width: 80%;
+    height: auto;
 }
 	
 .hero-section h1 {
@@ -373,6 +378,42 @@ h1 {
     align-self: center;
 }
 
+.tutor-section {
+    background: var(--white);
+    color: var(--orange-web);
+    /* padding: 3rem 2rem; */
+    /* border-radius: 16px; */
+    margin: 0 0rem;
+    /* box-shadow: 0 4px 24px #0006; */
+}
+
+.tutor-text {
+    flex-wrap: wrap;
+    flex: 60%;
+    line-height: 28px;
+    color: #727272;
+    margin-left: 5%;
+}
+
+.tutor-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tutor-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 24px #0006; */
+    align-self: left;
+}
+@media (max-width: 900px) {
+  .tutor-wrapper {
+    flex-direction: column
+  }
+}
 .posts-list {
     width: 35%;
     flex: 1;
