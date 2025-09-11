@@ -4,9 +4,10 @@ name: Coen Winchester
 title: "Coen Winchester: Guitar, Bass, and All Things Technical"
 instruments: 
   - Guitar
-  - Piano
-  - Music Theory
-location: Sydney CBD
+  - Bass
+  - Theory
+  - Production
+location: Inner West
 image: /assets/img/CoenWinchester.png
 excerpt: "Learn from one of Sydney's most experienced Guitar, Bass, Theory and Production Tutors"
 order: 1

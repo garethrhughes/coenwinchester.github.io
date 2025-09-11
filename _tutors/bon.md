@@ -4,7 +4,10 @@ name: Bon Lowe
 title: "Bon Lowe: Everything Drums and Theory"
 instruments: 
   - Drums
-location: Sydney CBD
+  - Keys
+  - Guitar
+  - Theory
+location: Western Sydney
 image: /assets/img/BonLowe.png
 excerpt: "Understand rhythm like never before with an experienced and qualified drummer."
 order: 2
