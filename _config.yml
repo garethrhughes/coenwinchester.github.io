@@ -1,5 +1,5 @@
 # Prevent Jekyll from processing anything – we just serve static files.
-title: Music Tutors of Sydney
+title: Music Tutors of Sydney | By Tutors, For You
 description: "Unlock your musical potential with expert lessons for all ages and skill levels."
 url: "https://musictutorsofsydney.org" # Update to your custom domain if needed
 baseurl: "" # Leave blank for root
